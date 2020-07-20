@@ -1,0 +1,6 @@
+endpoint: https://us1.prisma.sh/jachiike-c-madubuko/portfolio/dev
+datamodel: datamodel.prisma
+
+generate:
+  - generator: typescript-client
+    output: ./prisma-client/

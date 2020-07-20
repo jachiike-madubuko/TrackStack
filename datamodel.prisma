@@ -1,0 +1,13 @@
+type User {
+  userId: ID! @id
+  id: ID! @id
+  name: String!
+}
+
+
+type Thing {
+  id: ID! @id
+  name: String!
+  content: String!
+  color: String!
+}
